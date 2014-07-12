@@ -1,0 +1,131 @@
+---
+layout: post
+title: Practical Object Oriented Design in London
+---
+Between 25-27 June 2014 I had the pleasure of attending a 3-day course of [Practical Object Oriented Design](http://kickstartacademy.io/dates/poodr-london-3-day) facilitated by Sandi Metz [(@sandimetz)](https://github.com/sandimetz) and Matt Wynne [(@mattwynne)](https://github.com/mattwynne).
+
+Here's what I learned:
+
+#Day 1
+In the morning, we were given red tests and asked to implement a solution without worrying too much about the design ("shameless green"):
+
+- surprisingly, only 2-3 pairs has finished the task
+- the reason being we were trying to spot the patterns and write "smart", DRY (Don't Repeat Yourself) code as we were going, instead of focusing on getting the tests green
+- trade-off abstraction vs clarity: code that was "smart" was actually hard to read and change. Dirty but simple code with a conditional for every possible input was easy to read, though full of duplication
+- bad refactoring might lead people to guess the abstraction too soon. Bad abstraction/pattern is more expensive to work with than duplication
+
+In the next exercises we started with a dirty, simple and green solution (the state we called "shameless green") and worked on refactoring to remove the duplication:
+
+- the guiding rule was: "find the things that are most alike, and make changes to make them more alike"
+- it is critical to stay green during all the refactoring (if red, one and only one CTRL-Z takes it back to the latest green)
+- in order to make this possible we were practising refactoring a la Katrina Owen [(@kytrinyx)](https://github.com/kytrinyx): compile, execute, use results, clean up unused code. Compile means write new code but don't call it yet (catches syntax errors). Execute means call it somewhere in your method under test but ignore the results (catches undeclared methods, constants, etc). Use the results means replace the old code with the new one (catches mistakenly changed business logic).
+- if your tests are red and you get hit by a truck, it will cost other people money to pick them up
+- the more it hurts to stay green, the more important it is to do it
+- "shameless green" + refactoring tends to be actually faster in overall than trying to implements "smart code" straight away
+
+Horizontal vs Vertical Refactoring ([http://www.threeriversinstitute.org/blog/?p=594](http://www.threeriversinstitute.org/blog/?p=594))
+
+- I should pay attention to whether I want to finish horizontally first or how deep I want to go vertically
+- resist the change until you've got all the information to do vertical refactoring
+
+Names:
+
+- when in doubt how to name a variable/method, give a long & descriptive name (e.g. "initial_number_of_bottles")
+- these names are cheap to read (unlike x, foo)
+- short or bad names are expensive (they might cause you to think wrong about problems)
+
+Others:
+
+- defaults are useful when trying to add a new argument to a method while all the clients have not yet been migrated to the new signature
+- always use messages instead of directly accessing messages (@variable). Messages create seams - we can easily put a different object behind the message (on the other hand, there are no seems in procedures)
+- refactoring temporarily raises complexity before it's finished. After that, though, the complexity is lower
+
+#Day 2
+
+Squint test
+
+- looking at the shape & colors of all the code on one page suggests where to start refactoring
+- shape (conditionals && reasoning about code) + colors (grouping levels of abstraction)
+
+Small pieces
+
+- extracting the biggest thing in common leads to different results for different people. "Find the things most alike, make them more alike" refactoring leads to identical code for different people
+- it's very easy to combine small things back into a big thing (you'll never cause yourself problems with making small objects)
+- on the other hand, after extracting big methods/objects it can be difficult to take them apart
+
+When to extract classes:
+
+- if I have a number of methods which use only their method arguments, and not the class fields, it's a smell - probably we need to create new classes
+
+e.g.
+ def next_number_of_bottles(number_of_bottles)
+ ---- refactor into ---->
+ number_of_bottles_object = NumberOfBottles.new(number_of_bottles)
+ number_of_bottles_object.next
+
+- if I have bunch of variables with same prefix/suffix (e.g. initial_number_of_bottles, final_number_of_bottles) it probably means I should have an object NumberOfBottles and send messages: initial, final
+- top-down/bottom-up : objects that are reusable feature context independence (e.g. more generic names that the current use)
+
+How to extract classes from the small methods created by "Find the things most alike, make them more alike"
+
+- all these methods never use the state of the class, so they should be moved into a new class, where the current method arguments would become the fields of the new class
+- create new class and copy all the code in there
+- decision on what to copy should be based on arguments of methods, private/public, shape, return types, etc.
+- in the new class add accessor_reader for the arguments of the methods and initialize them in the constructor
+- new up new class in the old class everywhere (duplication)
+- to get rid of unnecessary method arguments in the new class you default them to the attr_accessor methods, then remove invocations from the clients, then remove arguments (with defaults)
+- local variable now refers to the attr_accesor message on the object, not to the method variable
+
+Now that all the methods arguments are gone, we can replace conditionals with polymorphism:
+
+- create a special case class (inheriting from existing base) and copy the methods with a conditional in it
+- keep only the branch for your special case class
+- instantiate it and use it in the clients
+- simplify the base class
+
+Inheritance:
+
+- is never a problem if you follow the "Find the things most alike, make them more alike" pattern (which creates small methods switching only on their parameters)
+
+Inheritance doesn't cause problems when:
+
+- it's shallow
+- it's narrow
+- subclasses are leaf nodes of the objects graph (they are at the edges of the system, not in the center)
+- subclasses use all the behaviour of the base class
+
+#Day 3
+SOLID principles:
+
+- Open Closed Principle: wait for a requirement to come in and then prepare the code for it (make the code easy to change, then make the easy change)
+- Liskov Substitution Principle: nil is an LSP violation because it doesn't respond to the same protocol (the client has to make an explicit nil check)
+
+Refactoring
+
+- the refactoring step of TDD cycle is to maximise clarity
+- refactoring that improves the design is used to make the code Open-Closed to new requirements
+- don't guess the future. Wait for a requirement, then make the code Open-Closed to it, then add the new feature
+
+Inheritance
+
+- the closer you apply inheritance to the middle of your domain, the more likely it is it will hurt. The middle should usually be made of composition
+- it's safe to use inheritance but you have to be ready to abandon it. It's safe to use it at the edges for small things
+
+Roles in ruby:
+
+is_a (inheritance)
+behaves_like (duck types)
+has_a (composition)
+
+#Related links
+[http://www.sandimetz.com/blog/2014/05/28/betting-on-wrong/](http://www.sandimetz.com/blog/2014/05/28/betting-on-wrong/)
+[http://www.confreaks.com/videos/3358-railsconf-all-the-little-things](http://www.confreaks.com/videos/3358-railsconf-all-the-little-things)
+[https://www.youtube.com/watch?v=npOGOmkxuio](https://www.youtube.com/watch?v=npOGOmkxuio)
+[http://www.confreaks.com/videos/1115-gogaruco2012-go-ahead-make-a-mess](http://www.confreaks.com/videos/1115-gogaruco2012-go-ahead-make-a-mess)
+[http://www.confreaks.com/videos/240-goruco2009-solid-object-oriented-design](http://www.confreaks.com/videos/240-goruco2009-solid-object-oriented-design)
+[http://www.confreaks.com/videos/1071-cascadiaruby2012-therapeutic-refactoring](http://www.confreaks.com/videos/1071-cascadiaruby2012-therapeutic-refactoring)
+
+#SUMMARY
+If you get a chance to attend this course, do not hesitate!
+
+ps: please know that all the points made in this post mirror my understanding of what we practised in the course and may not fully represent Sandi's and Matt's thoughts on the subject
