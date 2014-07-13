@@ -28,8 +28,7 @@ Horizontal vs Vertical Refactoring ([http://www.threeriversinstitute.org/blog/?p
 - I should pay attention to whether I want to finish horizontally first or how deep I want to go vertically
 - resist the change until you've got all the information to do vertical refactoring
 
-Names:
-
+Names:  
 - when in doubt how to name a variable/method, give a long & descriptive name (e.g. "initial_number_of_bottles")
 - these names are cheap to read (unlike x, foo)
 - short or bad names are expensive (they might cause you to think wrong about problems)
@@ -58,10 +57,14 @@ When to extract classes:
 - if I have a number of methods which use only their method arguments, and not the class fields, it's a smell - probably we need to create new classes
 
 e.g.
- def next_number_of_bottles(number_of_bottles)
+{% highlight ruby %}
+def next_number_of_bottles(number_of_bottles)
+{% endhighlight %}
  ---- refactor into ---->
- number_of_bottles_object = NumberOfBottles.new(number_of_bottles)
- number_of_bottles_object.next
+{% highlight ruby %}
+number_of_bottles_object = NumberOfBottles.new(number_of_bottles)
+number_of_bottles_object.next
+{% endhighlight %}
 
 - if I have bunch of variables with same prefix/suffix (e.g. initial_number_of_bottles, final_number_of_bottles) it probably means I should have an object NumberOfBottles and send messages: initial, final
 - top-down/bottom-up : objects that are reusable feature context independence (e.g. more generic names that the current use)

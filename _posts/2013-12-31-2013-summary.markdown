@@ -1,0 +1,62 @@
+---
+layout: post
+title: 2013 Summary
+---
+<i><span style="color: #666666;">This post is meant to be a point of reference for the upcoming year, that is to track my own progress (or lack of it) in the future.</span></i><br />
+<br />
+Most notably:<br />
+- new job - moved to London to work for <a href="http://vimeo.com/45385450">Sky Network Services</a>&nbsp;(part of <a href="http://corporate.sky.com/">Sky</a>)<br />
+<div>
+<br />
+Paired (as in Pair Programming):<br />
+- remotely with 2 persons (thanks to Avdi Grimm's&nbsp;<a href="http://www.pairprogramwith.me/">#pairwithme</a>)<br />
+- locally with ~15 people<br />
+<br /></div>
+<div>
+Coded:</div>
+- professionally in: Java, JavaScript<br />
+- for fun in: Ruby, Clojure<br />
+...and very briefly in: Bash, Python, C#<br />
+<br />
+New frameworks and tools used in projects:<br />
+- <a href="http://www.gradle.org/">Gradle</a> (multi-language build tool)<br />
+- <a href="http://angularjs.org/">AngularJS</a> (single-page apps with JavaScript)<br />
+- <a href="http://pivotal.github.io/jasmine/">Jasmine</a> and PhantomJS (unit testing setup for JavaScript)<br />
+- SpringJDBC (Database interface for Java)<br />
+- <a href="https://jersey.java.net/documentation/latest/user-guide.html">Jersey</a> (RESTful web services for Java)<br />
+- <a href="https://code.google.com/p/yatspec/">Yatspec</a> (supporting Java tool for Behaviour Driven Development)<br />
+- <a href="http://www.sparkjava.com/">Spark</a> (<a href="http://www.sinatrarb.com/">Sinatra</a>-inspired micro framework for web applications in Java)<br />
+- writing one's own MVC framework<br />
+- ...and &nbsp;IntelliJ (Java IDE), Mac, MacOS, TeamCity (Continuous Integration supporting tool)<br />
+<br />
+Attended meetups:<br />
+- <a href="http://www.meetup.com/london-software-craftsmanship/events/153202842/">Global Day of Code Retreat 2013 at Valtech, London</a> (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
+-&nbsp;Software Craftsmanship Round Tables (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
+- Evening Code and Coffee / Craft Beer (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
+- <a href="http://xpday-london.editme.com/XTC2013-0">eXtreme Tuesdays Club</a><br />
+- <a href="http://www.meetup.com/london-software-craftsmanship/events/142402052/">Architectural Kata</a> with Alexandru Bolboaca (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
+- BDD workshop with Steve Tookie (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
+- <a href="http://xpday-london.editme.com/XTC20131203">BDD workshop</a> with Meza Meszaros (by <a href="http://xpday-london.editme.com/XTC2013-0">eXtreme Tuesdays Club</a>)<br />
+<br />
+Seen live and had a short chat with:<br />
+- Kent Beck (<a href="http://www.amiando.com/kent-beck-fb-london.html">"My first feature and beyond: Why I work at Facebook"</a>)<br />
+- Uncle Bob (<a href="http://skillsmatter.com/podcast/agile-testing/automated-acceptance-testing">"Automated Acceptance Testing"</a>, "Professionalism", <a href="http://skillsmatter.com/podcast/agile-scrum/in-the-brain-of-uncle-bob">"Design Patterns"</a>)<br />
+<br />
+Seen live (people I had heard of before moving to London):<br />
+- Michael Feathers, Steve Freeman, Nat Pryce, Dan North, Tim Mackinnon, Liz Keogh, Keith Braithwaite, Sandro Mancuso, Giovanni Asproni, Enrique Comba Riepenhausen<br />
+<br />
+Read books:<br />
+- <a href="http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330">Practical Object-Oriented Design in Ruby</a>&nbsp;by Sandi Metz<br />
+- <a href="http://www.amazon.com/Smalltalk-Best-Practice-Patterns-Kent/dp/013476904X">Smalltalk Best Practice Patterns&nbsp;</a>by Kent Beck<br />
+- <a href="https://leanpub.com/ResponsibleDesignAndroid-Part1">Responsible Design in Android</a>&nbsp;by J.B. Rainsberger<br />
+- <a href="http://www.confidentruby.com/">Confident Ruby</a>&nbsp;by Avdi Grimm<br />
+- <a href="http://www.amazon.com/Are-Your-Lights-On-Problem/dp/0932633161">Are your lights on?</a>&nbsp;by&nbsp;D. Gause, G. Weinberg<br />
+- ... and partially bunch of other ones :)<br />
+<br />
+Watched podcasts/screencasts:<br />
+- <a href="https://www.destroyallsoftware.com/screencasts/catalog">Destroy All Software</a>&nbsp;by Gary Bernhardt<br />
+- <a href="http://cleancoders.com/">Clean Coders</a>&nbsp;by Uncle Bob<br />
+- <a href="http://pragprog.com/screencasts/v-kbtdd/test-driven-development">Test-Driven Development</a> by Kent Beck<br />
+- <a href="http://rubyrogues.com/">Ruby Rogues</a><br />
+<br />
+And finally read/watched way to many blog posts, articles, interviews, conference talks, etc :)<br />
