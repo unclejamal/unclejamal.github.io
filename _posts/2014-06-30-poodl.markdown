@@ -6,7 +6,7 @@ Between 25-27 June 2014 I had the pleasure of attending a 3-day course of [Pract
 
 Here's what I learned:
 
-#Day 1
+##Day 1
 In the morning, we were given red tests and asked to implement a solution without worrying too much about the design ("shameless green"):
 
 - surprisingly, only 2-3 pairs has finished the task
@@ -39,7 +39,7 @@ Others:
 - always use messages instead of directly accessing messages (@variable). Messages create seams - we can easily put a different object behind the message (on the other hand, there are no seems in procedures)
 - refactoring temporarily raises complexity before it's finished. After that, though, the complexity is lower
 
-#Day 2
+##Day 2
 
 Squint test
 
@@ -97,7 +97,7 @@ Inheritance doesn't cause problems when:
 - subclasses are leaf nodes of the objects graph (they are at the edges of the system, not in the center)
 - subclasses use all the behaviour of the base class
 
-#Day 3
+##Day 3
 SOLID principles:
 
 - Open Closed Principle: wait for a requirement to come in and then prepare the code for it (make the code easy to change, then make the easy change)
@@ -120,7 +120,7 @@ is_a (inheritance)
 behaves_like (duck types)
 has_a (composition)
 
-#Related links
+##Related links
 [http://blogs.blueskyline.com/2014/07/13/i-was-sandi-and-matts-lab-rat](http://blogs.blueskyline.com/2014/07/13/i-was-sandi-and-matts-lab-rat)
 [http://www.sandimetz.com/blog/2014/05/28/betting-on-wrong/](http://www.sandimetz.com/blog/2014/05/28/betting-on-wrong/)
 [http://www.confreaks.com/videos/3358-railsconf-all-the-little-things](http://www.confreaks.com/videos/3358-railsconf-all-the-little-things)
@@ -129,7 +129,7 @@ has_a (composition)
 [http://www.confreaks.com/videos/240-goruco2009-solid-object-oriented-design](http://www.confreaks.com/videos/240-goruco2009-solid-object-oriented-design)
 [http://www.confreaks.com/videos/1071-cascadiaruby2012-therapeutic-refactoring](http://www.confreaks.com/videos/1071-cascadiaruby2012-therapeutic-refactoring)
 
-#SUMMARY
+##SUMMARY
 If you get a chance to attend this course, do not hesitate!
 
 ps: please know that all the points made in this post mirror my understanding of what we practised in the course and may not fully represent Sandi's and Matt's thoughts on the subject

@@ -16,18 +16,20 @@ html, body {
 }
 
 body {
-  background-color: white;
+  background-color: #292929;
   font: 13.34px helvetica, arial, clean, sans-serif;
+  color: #cccccc;
   *font-size: small;
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
 
 h1 {
-  margin-bottom: 1em;
+  font-size: 120%;
+  margin-bottom: 2em;
 }
 
 p {
@@ -35,21 +37,19 @@ p {
 }
 
 a {
-  color: #00a;
+  color: #dd7700;
+  text-decoration: none;
 }
 
 a:hover {
-  color: black;
+  color: #cc6600;
+  text-decoration: underline;
 }
 
 a:visited {
-  color: #a0a;
+  color: #cc6600;
 }
 
-table {
-  font-size: inherit;
-  font: 100%;
-}
 
 /*****************************************************************************/
 /*
@@ -79,10 +79,12 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
+  background-color: #333333;
   font-size: 110%;
   text-align: justify;
   width: 40em;
   margin: 3em auto 2em auto;
+  padding: 3em;
   line-height: 1.5em;
 }
 
@@ -98,7 +100,7 @@ ul.posts {
   }
 
   .site .title a:hover {
-    color: black;
+    color: #eee;
   }
 
   .site .title a.extra {
@@ -108,7 +110,7 @@ ul.posts {
   }
 
   .site .title a.extra:hover {
-    color: black;
+    color: #eee;
   }
 
   .site .meta {
@@ -118,7 +120,6 @@ ul.posts {
   .site .footer {
     font-size: 80%;
     color: #666;
-    border-top: 4px solid #eee;
     margin-top: 2em;
     overflow: hidden;
   }
@@ -155,8 +156,8 @@ ul.posts {
   /* standard */
 
   #post pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
+    border: 1px solid #333;
+    background-color: #292929;
     padding: 0 .4em;
   }
 
@@ -167,7 +168,6 @@ ul.posts {
 
   #post code {
     border: 1px solid #ddd;
-    background-color: #eef;
     font-size: 85%;
     padding: 0 .2em;
   }
