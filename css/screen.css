@@ -23,14 +23,25 @@ body {
   text-align: center;
 }
 
-h2, h3, h4, h5, h6 {
+h1 {
+  font-size: 150%;
+}
+h2 {
+  font-size: 130%;
+}
+h3 { 
+  font-size: 110%;
+}
+h4, h5, h6 {
   font-size: 100%;
-  margin: 1em 0;
 }
 
 h1 {
-  font-size: 120%;
-  margin-bottom: 2em 0 1em 0;
+  margin-bottom: 1em;
+}
+
+h2, h3, h4, h5, h6 {
+  margin: 1em 0;
 }
 
 p {
@@ -152,6 +163,11 @@ ul.posts {
 
 #post {
 
+}
+
+#post .publicationDate {
+  font-size: 80%;
+  font-style: italic;
 }
 
   /* standard */
