@@ -125,6 +125,7 @@ has_a (composition)
 
 ##RELATED LINKS
 [http://blogs.blueskyline.com/2014/07/13/i-was-sandi-and-matts-lab-rat](http://blogs.blueskyline.com/2014/07/13/i-was-sandi-and-matts-lab-rat)
+[http://red-badger.com/blog/2014/08/20/i-spent-3-days-with-sandi-metz-heres-what-i-learned](http://red-badger.com/blog/2014/08/20/i-spent-3-days-with-sandi-metz-heres-what-i-learned)
 [http://www.sandimetz.com/blog/2014/05/28/betting-on-wrong/](http://www.sandimetz.com/blog/2014/05/28/betting-on-wrong/)
 [http://www.confreaks.com/videos/3358-railsconf-all-the-little-things](http://www.confreaks.com/videos/3358-railsconf-all-the-little-things)
 [https://www.youtube.com/watch?v=npOGOmkxuio](https://www.youtube.com/watch?v=npOGOmkxuio)
