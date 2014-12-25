@@ -7,20 +7,21 @@ title: 2014 Summary
 Jobwise<br />
 - moved to a new team within the same company <a href="http://vimeo.com/45385450">Sky Network Services</a>&nbsp;(part of <a href="http://corporate.sky.com/">Sky</a>)<br />
 <div>
-<br />
 Paired (as in Pair Programming):<br />
 - remotely with 3 persons (thanks to Avdi Grimm's&nbsp;<a href="http://www.pairprogramwith.me/">#pairwithme</a>)<br />
 - locally with ~30-40 people (rough estimate - forgot to count it ;-))<br />
 <br /></div>
 <div>
-Coded:</div>
+Coded:<br />
 - professionally in: Java, JavaScript, Scala<br />
 - for fun in: Ruby, Bash<br />
-- ...and very briefly in: Python, C#, Objective-C, Clojure<br />
-<br />
+- ...and very briefly in: Python, C#, Objective-C, Clojure<br /></div>
+<div>
+<br/>
 New frameworks and tools attempted in professional projects:<br />
-- Kanban
-<br />
+- Kanban</br /></div>
+<div>
+<br/>
 Attended Conferences/Trainings:<br />
 - <a href="http://kickstartacademy.io/courses/practical-object-oriented-design">Practical Object Oriented Design</a> with Sandi Metz and Matt Wynne (by <a href="http://kickstartacademy.io/">Kickstart Academy</a>)<br />
 - <a href="http://socratesuk.org">SoCraTes UK 2014 Unconference</a> (International Software Craftsmanship Gathering)<br />
@@ -30,20 +31,29 @@ Attended Conferences/Trainings:<br />
 - Software Craftsmanship Round Tables (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
 - Hands-on Programming Sessions at Pivotal Labs, London (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
 - <a href="http://xpday-london.editme.com/XTC2014">eXtreme Tuesdays Club</a><br />
-<br />
+</div>
+<div>
+<br/>
 Seen live:<br />
 - Uncle Bob (<a href="https://skillsmatter.com/skillscasts/5833-in-the-brain-of-uncle-bob-tdd-is-alive-well-and-growing">"TDD is Alive, Well, and Growing"</a>, <a href="https://skillsmatter.com/skillscasts/5224-the-future-of-agile-if-any">"The Future of Agile If Any"</a>)<br />
 - Bob Marshall (<a href="http://vimeo.com/113216169">"Seven Changes To Improve Flow"</a>)<br />
-<br />
+</div>
+<div>
+<br/>
 Read books:<br />
 - <a href="http://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0201616416">Extreme Programming Explained 1st ed.&nbsp;</a>by Kent Beck<br />
 - <a href="https://leanpub.com/4rulesofsimpledesign">4 Rules of Simple Design&nbsp;</a>by Corey Haines<br />
 - ... and partially bunch of other ones :)<br />
-<br />
+</div>
+<div>
+<br/>
 Watched podcasts/screencasts:<br />
 - <a href="https://jbrains.typeform.com/to/rpvXwR">TDD Screencasts</a>&nbsp;by JB Rainsberger<br />
 - <a href="http://cleancoders.com/">Clean Coders (all new episodes)</a>&nbsp;by Uncle Bob<br />
 - <a href="http://rubyrogues.com/">Ruby Rogues</a><br />
 - <a href="http://www.rubytapas.com">Ruby Tapas</a>&nbsp;by Avdi Grimm<br />
-<br />
+</div>
+<div>
+<br/>
 And finally read/watched way to many blog posts, articles, interviews, conference talks, etc :)<br />
+</div>
