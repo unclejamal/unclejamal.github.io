@@ -12,6 +12,13 @@ Paired (as in Pair Programming):<br />
 - locally with ~30-40 people (rough estimate - forgot to count it ;-))<br />
 <br /></div>
 <div>
+Most influential discoveries:<br />
+- Open-Closed Principle - from Sandi Metz</br />
+- Tiny steps of refactoring - from Katrina Owen</br />
+- Object-oriented design flow - from Sandi Metz</br />
+- Limiting red (not compile, failing tests) time - from Gary Bernhardt, Joshua Kerievsky, Carlos Ble and others</br />
+<br /></div>
+<div>
 Coded:<br />
 - professionally in: Java, JavaScript, Scala<br />
 - for fun in: Ruby, Bash<br />
