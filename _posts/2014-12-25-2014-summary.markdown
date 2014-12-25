@@ -13,10 +13,10 @@ Paired (as in Pair Programming):<br />
 <br /></div>
 <div>
 Most influential discoveries:<br />
-- Open-Closed Principle - from Sandi Metz</br />
-- Tiny steps of refactoring - from Katrina Owen</br />
-- Object-oriented design flow - from Sandi Metz</br />
-- Limiting red (not compile, failing tests) time - from Gary Bernhardt, Joshua Kerievsky, Carlos Ble and others</br />
+- Open-Closed Principle - from Sandi Metz (explained in her <a href="http://kickstartacademy.io/courses/practical-object-oriented-design">training course</a>, summary <a href="http://www.sandimetz.com/blog/2014/05/28/betting-on-wrong">here</a>)</br />
+- Tiny Steps of Refactoring - from Katrina Owen (explained in Sandi Metz's <a href="http://kickstartacademy.io/courses/practical-object-oriented-design">training course</a>, summary <a href="http://www.sandimetz.com/blog/2014/05/28/betting-on-wrong">here</a>)</br />
+- Object-Oriented Design Process - from Sandi Metz (explained in her <a href="http://kickstartacademy.io/courses/practical-object-oriented-design">training course</a>, summary <a href="http://www.sandimetz.com/blog/2014/9/9/shape-at-the-bottom-of-all-things">here</a>)</br />
+- Limiting Red Time (not compile, failing tests) - from Gary Bernhardt, <a href="http://www.infoq.com/presentations/The-Limited-Red-Society">Joshua Kerievsky</a>, <a href="http://martinfowler.com/bliki/ParallelChange.html">Danilo Sato</a>, Carlos Ble and others</br />
 <br /></div>
 <div>
 Coded:<br />
