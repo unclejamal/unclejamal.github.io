@@ -22,15 +22,24 @@ New frameworks and tools attempted in professional projects:<br />
 - Kanban</br /></div>
 <div>
 <br/>
-Attended Conferences/Trainings:<br />
+Attended Conferences/Trainings/Meetups:<br />
 - <a href="http://kickstartacademy.io/courses/practical-object-oriented-design">Practical Object Oriented Design</a> with Sandi Metz and Matt Wynne (by <a href="http://kickstartacademy.io/">Kickstart Academy</a>)<br />
 - <a href="http://socratesuk.org">SoCraTes UK 2014 Unconference</a> (International Software Craftsmanship Gathering)<br />
 - <a href="http://xpday.wordpress.com/2014/10/01/xpday-2014-dec-1-2-unruly-media/">XP Day 2014 London Unconference</a><br />
 - <a href="http://www.meetup.com/london-software-craftsmanship/events/213589072/">Global Day of Code Retreat 2014 at Pivotal Labs, London</a><br />
 - <a href="http://xpday-london.editme.com/XTC20140617">The Limits of Tell Don't Ask</a> by James Byatt<br />
+- Hands-on Sessions: <a href="http://www.meetup.com/london-software-craftsmanship/events/161913242">Back to basics with TDD</a> with Samir Talwar & Goncalo Silva (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
+- Hands-on Sessions: <a href="http://www.meetup.com/london-software-craftsmanship/events/167800192">Refactoring Legacy Code</a> with Mashooq Badar & Robert Taylor (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
+- Hands-on Sessions: <a href="http://www.meetup.com/london-software-craftsmanship/events/184534742">Learning another discipline</a> with Goncalo Silva & Pedro M. Santos (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
+- Hands-on Sessions: <a href="http://www.meetup.com/london-software-craftsmanship/events/190722572">Refactoring Legacy Code: From Push to Pull</a> with Nicole Rauch (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
 - Software Craftsmanship Round Tables (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
-- Hands-on Programming Sessions at Pivotal Labs, London (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
+- Software Craftsmanship Talks at SkillsMatter (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
+- Evening Code and Coffee / Craft Beer (by <a href="http://www.meetup.com/london-software-craftsmanship/">LSCC</a>)<br />
+- all but one Extreme Programmers London meetups (by <a href="http://www.meetup.com/Extreme-Programmers-London/">Rachel Davies</a>)<br />
+- Hackathon <a href="http://www.meetup.com/Londonjavacommunity/events/198900402">HackTheTower</a> (by <a href="http://www.meetup.com/Londonjavacommunity">London Java Community</a>)<br />
+- Hackathon: <a href="http://www.meetup.com/Londonjavacommunity/events/194886132">LambdaBehave Hackday</a> <(by <a href="http://www.meetup.com/Londonjavacommunity">London Java Community</a>)<br />
 - <a href="http://xpday-london.editme.com/XTC2014">eXtreme Tuesdays Club</a><br />
+- some SkillsMatter talks<br />
 </div>
 <div>
 <br/>
