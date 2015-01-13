@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java 8 Loops
+title: Integer-based Loops in Java 8 (and Ruby)
 ---
 
 Recently an [interesting post](http://www.deadcoderising.com/java-8-no-more-loops) by [@mariushe](https://twitter.com/mariushe) has been making rounds on Twitter. In it the author emphasises the Java 8 feature of streams allowing for functional processing of collections as opposed to the traditional 'for' loops.
