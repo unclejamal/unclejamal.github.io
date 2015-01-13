@@ -3,12 +3,18 @@ layout: post
 title: Integer-based Loops in Java 8 (and Ruby)
 ---
 
-Recently an [interesting post](http://www.deadcoderising.com/java-8-no-more-loops) by [@mariushe](https://twitter.com/mariushe) has been making rounds on Twitter. In it the author emphasises the Java 8 feature of streams allowing for functional processing of collections as opposed to the traditional 'for' loops.
+Recently an [interesting post](http://www.deadcoderising.com/java-8-no-more-loops) by [@mariushe](https://twitter.com/mariushe) has been making rounds on Twitter. In it the author emphasises the Java 8 feature of streams allowing for functional processing of collections as opposed to the traditional 'for' loop:
+{% highlight java %}
+  articles.stream()
+    .filter(article -> article.getTags().contains("Java"))
+    .findFirst();
+{% endhighlight %}
 
-# And ordinary integer-based loops?
+Java programmers indeed seem to like this feature. I have already seen quite a number of great posts, articles and presentations about it.
 
-It might be just me but I have already seen a number of posts, articles and presentations about that but I have only come across [one post](http://www.adam-bien.com/roller/abien/entry/java_8_from_ordinary_for) that mentions ordinary integer based loops like:
+# But what about ordinary integer-based loops?
 
+Now, it might be just me but I have only come across [one post](http://www.adam-bien.com/roller/abien/entry/java_8_from_ordinary_for) that mentions ordinary integer-based loops like:
 Java 7 and older:
 {% highlight java %}
 for (int i = 0; i < 10; i++) {
@@ -39,7 +45,7 @@ Which can be replaced in Java 8 with IntStream:
 {% endhighlight %}
 
 
-In my opinion IntStream loops are possibly easier to read (probably a matter of taste). I have never gotten 100% comfortable with the fact an idiomatic Java 7 loop from 1 to 10 actually starts with 0 (and not 1) but ends with 10 (as long as my team members and I remember to consistently use the 'less than' operator):
+In my opinion IntStream loops are possibly also easier to read (probably a matter of taste). I have never gotten 100% comfortable with the fact an idiomatic Java 7 loop from 1 to 10 actually starts with 0 (and not 1) but ends with 10 (as long as my team members and I remember to consistently use the 'less than' operator):
 {% highlight java %}
 for (int i = 0; i < 10; i++) {
   // adding 1 because loops idiomatically start with 0 and use the 'less than' operator
