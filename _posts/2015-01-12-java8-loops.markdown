@@ -101,7 +101,7 @@ end
 
 ... under the hood it is actually syntactic sugar and it gets translated into an 'each' method invokation. 'For' in the sense obscures what is really going on, that is that the object we are iterating on has to respond to the 'each' method.
 
-Apart from the syntactic difference, another advantage of the 'each' loop in Ruby is it creates a new variable scope. This means effectively it removes the risk of mutating an existing variable, if used as the loop counter.
+More importantly though, apart from the syntactic difference, the 'each' loop in Ruby creates a new variable scope. This means it effectively removes the risk of mutating an existing variable, if used as the loop counter.
 
 
 # Summary
