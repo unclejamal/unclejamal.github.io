@@ -1,1 +1,7 @@
 markdown: rdiscount
+name: Pawel Duda
+title: Pawel Duda
+author: Pawel Duda
+description: Pawel's blog
+url: http://unclejamal.github.io
+baseurl: "" # the subpath of your site, e.g. /blog/
