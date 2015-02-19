@@ -138,11 +138,12 @@ ul.posts {
 
     .site .footer .contact {
       float: left;
-      margin-right: 3em;
+      margin-right: 1em;
     }
 
       .site .footer .contact a {
         color: #8085C1;
+        margin-left: 1em;
       }
 
     .site .footer .rss {
