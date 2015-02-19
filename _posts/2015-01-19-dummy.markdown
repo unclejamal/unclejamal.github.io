@@ -1,0 +1,9 @@
+---
+layout: post
+title: Dummy
+---
+
+# Summary
+But enough about Ruby. I am simply wondering how successful the new Java 8 syntax will be in replacing the old habits of Java programmers... I am guessing this will be the case for collections processing. Again, I see a lot written on that. But I suppose the strongest habit, 'for' loops for plain old integer-based loops might stay on. Just a guess... We will see :)
+
+Which syntax do you prefer?
