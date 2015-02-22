@@ -12,7 +12,9 @@ Recently an [interesting post](http://www.deadcoderising.com/java-8-no-more-loop
 
 Java programmers indeed seem to like this feature. I have already seen quite a number of great posts, articles and presentations about it.
 
-# But what about ordinary integer-based loops?
+
+But what about ordinary integer-based loops?
+--------------------------
 
 Now, it might be just me but I have only come across [one post](http://www.adam-bien.com/roller/abien/entry/java_8_from_ordinary_for) that mentions ordinary integer-based loops like:
 Java 7 and older:
@@ -70,7 +72,9 @@ In Java 8 I have two methods that help out:
 So with 'rangeClosed' there are no comparisons. Nice and clean declarative statement.
 
 
-# Ruby digression
+Ruby digression
+--------------------------
+
 But maybe I am a little biased by Ruby. [Avdi Grimm](https://twitter.com/avdi) in his screencast [Ruby Tapas #173](http://www.rubytapas.com/episodes/173-for) explains that the counterpart of IntStream in the Ruby world, the 'each' method, is the idiomatic way of looping:
 {% highlight ruby %}
 fruits = ['apple', 'banana']
@@ -104,7 +108,9 @@ end
 More importantly though, apart from the syntactic difference, the 'each' loop in Ruby creates a new variable scope. This means it effectively removes the risk of mutating an existing variable, if used as the loop counter.
 
 
-# Summary
+Summary
+--------------------------
+
 But enough about Ruby. I am simply wondering how successful the new Java 8 syntax will be in replacing the old habits of Java programmers... I am guessing this will be the case for collections processing. Again, I see a lot written on that. But I suppose the strongest habit, 'for' loops for plain old integer-based loops might stay on. Just a guess... We will see :)
 
 Which syntax do you prefer?
