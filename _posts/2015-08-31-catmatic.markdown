@@ -1,0 +1,83 @@
+---
+layout: post
+title: Be cat-matic
+---
+
+
+I like to believe that there are no rules in software development. That is, any process, tool or "best practice" are simply guidelines, recommendations that makes sense under certain circumstances. To name an example, I find Test-Driven Development extremely useful, however I certainly can think of some scenarios where I would tend to skip it.
+
+Workshop at SoCraTes 2015
+--------------------------
+
+Between 27/08/2015 and 30/08/2015 I had a pleasure to participate in the [SoCraTes (Software Craftsmanship and Testing) 2015](https://www.socrates-conference.de) open-space unconference held in Soltau, Germany.
+
+It was a perfect opportunity to organise a workshop and find out how other people feel about rules (or lack thereof) in software development. I initially wanted to name it "There are no rules" or "Rattle your cage" until somebody came up with the word "cat-matic", an antonym of dogmatic, which seemed like a good match :)
+
+That's how the session "Be cat-matic" was born.
+
+Cat-matic format
+--------------------------
+
+The workshop itself was 45 minutes long. It consisted of 3 parts:
+
+1. Participants were asked to write down their **favourite tools**, patterns, processes, ideas and put them next to each other on the floor.
+
+2. People self-organised themselves into groups of 4-6 people and were asked to pick up whatever cards they wanted from the floor and try to **break them** - that is think of circumstances or situations where the "best practice" would not be adequate or there exists a better tool for the job at hand.
+
+3. **Shared retrospective**, in which the findings were presented to the other groups.
+
+
+Examples from the workshop
+--------------------------
+Just to name a few examples, participants picked: Simple (Clean) Code, Agile, Test-Driven Development, Pair Programming, good team spirit, correct spelling in the code, use of version control, small commits.
+
+<div style="text-align: center">
+  <a href="/pic/catmatic/catmatic-favourite-things.jpg">
+    <img src="/pic/catmatic/catmatic-favourite-things.jpg" width="500px" height="400px"/>
+  </a>
+</div>
+
+Here are some learnings from the retrospective.
+
+#### Test-Driven Development
+What if I am just spiking? What if I am playing with the CSS layout?
+
+#### Pair programming
+What if work with people who do not like pairing. Perhaps they find it exhausting, perhaps they cannot focus, perhaps they have worked without pairing for many years now and it is hard to change habits. Would I still want to force them into pairing?
+
+#### Correct spelling
+What if, given a soon deadline, I am fixing a bug in the domain logic and find a mistyped class field 'aadress' that spreads through many layers: database, domain logic, web layer. Would I rather quickly fix the typo in the code, which results in inconsistent naming across layers, or perhaps leave it as is, assuming that the cost of fixing every layer (including data migrations, interfaces adjustments, test fixes, risk of breaking things for the upcoming release)? Just because correct spelling seems like a good idea generally, it does not necessarily mean it is in the current iteration.
+
+#### Good team spirit
+What if the team does not deliver?
+
+#### Version control
+What if I am spiking whether a 3rd-party library supports a new kind of request? What if I am writing one-shot code?
+
+#### Small commits
+What if I joined a legacy project where running the build and tests takes 1 hour. Most of them are end-to-end they also fail intermittently. They are already running in parallel. If I wanted to commit in 5-30 minutes intervals I would have to add a 1 hour overhead each time. Or [integrate asynchronously](http://www.jamesshore.com/Blog/Forces-Affecting-Continuous-Integration.html), that is, have Jenkins (or something like that) build it while I am starting a new task. What if Jenkins fails, though? Even if it does not, following asynchronous integration might/will end up in super long builds and delayed feedback, and inevitably more bugs. Of course in the long term I do want to rewrite my end-to-end tests to something faster and more reliable, but in the meantime, are small commits a good idea?
+
+
+My opinion
+--------------------------
+
+I personally believe that there are various reasons not to follow a "best practice":
+
+- **technical reasons**: small commits might not work well until long-running tests are fixed
+- **social reasons**: the cost of creating a personal conflict in the team might be higher than forcing everybody into pairing
+- **business reasons**: we might have genuine deadlines under which some compromises have to be made now (and hopefully adressed after the release)
+- **nature of things**: we normally don't automate tests for CSS layout - computers are not a good tool to assess the look and feel
+
+When we learn about a new idea or a framework, we should consider all these reasons before pushing it in our project as dogma.
+
+Just because something worked for team A, does not necessarily mean it will work for team B. Even it is the same team, just because a tool worked in project A, it still might fail for a project B. Or simply, there might be a better tool for the job at hand.
+
+
+Kudos
+--------------------------
+I hope the workshop has helped at least a little bit to get out of our comfort zones and think outside of our own box.
+
+Thank you SoCraTes 2015 for making I would be happy to hear your feedback this workshop possible and memorable.
+
+
+I would be happy to read your feedback below in the comments.
