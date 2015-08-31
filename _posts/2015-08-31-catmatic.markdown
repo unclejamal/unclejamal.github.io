@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Be cat-matic
--/--
+---
 
 
 I like to believe that there are no rules in software development. That is, any process, tool or "best practice" are simply guidelines, recommendations that make sense under certain circumstances. To name an example, I find Test-Driven Development extremely useful, however I certainly can think of some scenarios where I would tend to skip it.
