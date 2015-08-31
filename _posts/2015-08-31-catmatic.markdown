@@ -20,7 +20,7 @@ Cat-matic format
 
 The workshop itself was 45 minutes long. It consisted of 3 parts:
 
-1. Participants were asked to write down their **favourite tools**, patterns, processes, ideas and put them next to each other on the floor.
+1. Participants were asked to write down their **favourite tools, patterns, processes, ideas** and put them next to each other on the floor.
 
 2. People self-organised themselves into groups of 4-6 people and were asked to pick up whatever cards they wanted from the floor and try to **break them** - that is think of circumstances or situations where the "best practice" would not be adequate or there exists a better tool for the job at hand.
 
@@ -55,7 +55,7 @@ What if the team does not deliver?
 What if I am spiking whether a 3rd-party library supports a new kind of request? What if I am writing one-shot code?
 
 #### Small commits
-What if I joined a legacy project where running the build and tests takes 1 hour. Most of them are end-to-end they also fail intermittently. They are already running in parallel. If I wanted to commit in 5-30 minutes intervals I would have to add a 1 hour overhead each time. Or [integrate asynchronously](http://www.jamesshore.com/Blog/Forces-Affecting-Continuous-Integration.html), that is, have Jenkins (or something like that) build it while I am starting a new task. What if Jenkins fails, though? Even if it does not, following asynchronous integration might/will end up in super long builds and delayed feedback, and inevitably more bugs. Of course in the long term I do want to rewrite my end-to-end tests to something faster and more reliable, but in the meantime, are small commits a good idea?
+What if I joined a legacy project where running the build and tests takes 1 hour. Most of them are end-to-end and, on top of that, they fail intermittently. They are already running in parallel. If I wanted to commit in 5-30 minutes intervals I would have to add a 1 hour overhead each time. Or [integrate asynchronously](http://www.jamesshore.com/Blog/Forces-Affecting-Continuous-Integration.html), that is, have Jenkins (or something like that) build it while I am starting a new task. What if Jenkins fails, though? Even if it does not, following asynchronous integration might/will end up in super long builds and delayed feedback, and inevitably more bugs. Of course in the long term I do want to rewrite my end-to-end tests to something faster and more reliable, but in the meantime, are small commits a good idea?
 
 
 My opinion
@@ -68,16 +68,16 @@ I personally believe that there are various reasons not to follow a "best practi
 - **business reasons**: we might have genuine deadlines under which some compromises have to be made now (and hopefully adressed after the release)
 - **nature of things**: we normally don't automate tests for CSS layout - computers are not a good tool to assess the look and feel
 
-When we learn about a new idea or a framework, we should consider all these reasons before pushing it in our project as dogma.
+When we learn about a new idea or a framework, we should consider all these reasons before pushing it in our project as a dogma.
 
 Just because something worked for team A, does not necessarily mean it will work for team B. Even it is the same team, just because a tool worked in project A, it still might fail for a project B. Or simply, there might be a better tool for the job at hand.
 
+Having said that, and this is the key, we should definitely consider addressing the underlying problems in order to enable "best practices". For instance, I wouldn't just impose pairing on a team that is not ready for it but I would first work towards creating a pairing culture in a company (maybe by building a new team that wants to pair full-time and then, if successful, spreading it across by example).
 
 Kudos
 --------------------------
 I hope the workshop has helped at least a little bit to get out of our comfort zones and think outside of our own box.
 
 Thank you SoCraTes 2015 for making I would be happy to hear your feedback this workshop possible and memorable.
-
 
 I would be happy to read your feedback below in the comments.
