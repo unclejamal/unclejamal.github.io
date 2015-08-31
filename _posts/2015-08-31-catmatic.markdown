@@ -68,11 +68,11 @@ I personally believe that there are various reasons not to follow a "best practi
 - **business reasons**: we might have genuine deadlines under which some compromises have to be made now (and hopefully adressed after the release)
 - **nature of things**: we normally don't automate tests for CSS layout - computers are not a good tool to assess the look and feel
 
-When we learn about a new idea or a framework, we should consider all these reasons before pushing it in our project as a dogma.
+When we learn about a new idea, process or framework, we should consider all these reasons before pushing it in our project as a always-working dogma.
 
 Just because something worked for team A, does not necessarily mean it will work for team B. Even it is the same team, just because a tool worked in project A, it still might fail for a project B. Or simply, there might be a better tool for the job at hand.
 
-Having said that, and this is the key, we should definitely consider addressing the underlying problems in order to enable "best practices". For instance, I wouldn't just impose pairing on a team that is not ready for it but I would first work towards creating a pairing culture in a company (maybe by building a new team that wants to pair full-time and then, if successful, spreading it across by example).
+Having said that, and this is the key, we should definitely consider adequate options to enable "best practices". For instance, I wouldn't just impose pairing on a team that is not ready for it but I would first work towards creating a pairing culture in the company (maybe by building a new team that wants to pair full-time and then, if successful, spreading it across by example).
 
 Kudos
 --------------------------
