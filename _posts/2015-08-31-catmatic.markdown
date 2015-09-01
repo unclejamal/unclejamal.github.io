@@ -67,6 +67,8 @@ I personally believe that there are various reasons not to follow a "best practi
 - **social reasons**: the cost of creating a personal conflict in the team might be higher than forcing everybody into pairing
 - **business reasons**: we might have genuine deadlines under which some compromises have to be made now (and hopefully adressed after the release)
 - **nature of things**: we normally don't automate tests for CSS layout - computers are not a good tool to assess the look and feel
+- **optimising the wrong thing**: as in Kanban; we might want to focus on improving the current bottlenecks in the first priority, before pushing for that new, shiny framework
+- **learning limits**: it is generally confusing to learn many things at a time. Perhaps we have just started using a new programming language and a nosql datastore. Is now really the right moment to introduce TDD on top of that?
 
 When we learn about a new idea, process or framework, we should consider all these reasons before pushing it in our project as a always-working dogma.
 
