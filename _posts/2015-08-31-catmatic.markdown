@@ -70,6 +70,8 @@ I personally believe that there are various reasons not to follow a "best practi
 - **optimising the wrong thing**: as in Kanban; we might want to focus on improving the current bottlenecks in the first priority, before pushing for that new, shiny framework
 - **learning limits**: it is generally confusing to learn many things at a time. Perhaps we have just started using a new programming language and a nosql datastore. Is now really the right moment to introduce TDD on top of that?
 
+As a programmer, I am generally biased to perceive mostly/only technical reasons. However, the other ones might be even more important.
+
 When we learn about a new idea, process or framework, we should consider all these reasons before pushing it in our project as a always-working dogma.
 
 Just because something worked for team A, does not necessarily mean it will work for team B. Even it is the same team, just because a tool worked in project A, it still might fail for a project B. Or simply, there might be a better tool for the job at hand.
