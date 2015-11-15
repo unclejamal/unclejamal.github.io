@@ -113,6 +113,7 @@ The Global Day of Code Retreat 2015 was a great learning experience for me. Than
 - [@Singsalad](http://twitter.com/Singsalad) - for the **weeks** of your effort and coordination
 - [@gemcfadyen](http://twitter.com/gemcfadyen) - for the encouragement and tips (TDD, retros)
 - [@marcoemrich](http://twitter.com/marcoemrich) - for the fantastic facilitator training and the attached notes
+- [@julianghionoiu](http://twitter.com/julianghionoiu) - for organising the video chat, inviting us to a pub and all the discussions
 - [Software Craftsmanship Krakow](http://www.meetup.com/sc-krk/events/90017372) - for my first ever, inspiring Global Day of Code Retreat 2012
 - [@coreyhaines](http://twitter.com/coreyhaines), [@adibolb](http://twitter.com/adibolb), [@alexboly](http://twitter.com/alexboly) and all the people who created and popularised Global Day of Code Retreat
 
