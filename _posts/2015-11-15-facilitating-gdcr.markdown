@@ -4,7 +4,7 @@ title: Facilitating a Global Day of Code Retreat
 ---
 
 
-On 14/11/2015 I had an honour to co-facilitate, together with [@keyvanakbary](http://twitter.com/keyvanakbary), a [Global Day of Code Retreat at TransferWise](http://www.meetup.com/london-software-craftsmanship/events/226148869). This blog post is my retrospective on what we did and how we could improve it for the next year.
+On 14/11/2015 I had an honour to co-facilitate, together with [@keyvanakbary](http://twitter.com/keyvanakbary), a [Global Day of Code Retreat at TransferWise](http://www.meetup.com/london-software-craftsmanship/events/226148869). This blog post is my retrospective.
 
 <div style="text-align: center">
   <a href="/pic/gdcr2015/gdcr.jpg">
@@ -21,7 +21,7 @@ I met [@keyvanakbary](http://twitter.com/keyvanakbary) a few days before and we 
 On top of that, we prepared a [presentation for participants](https://docs.google.com/presentation/d/1r_3X5VfLgwG4ZG-jlWtPO_uAI9msTbRnYcyQUe__BCM/edit?usp=sharing)
 and a simple [script for facilitators](https://drive.google.com/open?id=1Ryav3NGRNGMARyAWs-iLFjU9CmtoxDynRlczi00hGtg) - a step-by-step of what we want to talk about, useful links, etc. I didn't memorise all of it but the fact of having it written down helped to clarify how to structure the day (mainly the introduction) and when to show sponsor decks, explain the Conway's Game of Life rules, etc.
 
-I also posted a few comments on the [Meetup page](http://www.meetup.com/london-software-craftsmanship/events/226148869) to remind the participants about the event and attach a video by [@alexboly](http://twitter.com/alexboly) in which he explains how to get the most out of it.
+I also posted a few comments on the [Meetup page](http://www.meetup.com/london-software-craftsmanship/events/226148869) to remind the participants about the event and attach a [video](https://vimeo.com/145525880) by [@alexboly](http://twitter.com/alexboly) in which he explains how to get the most out of it.
 
 
 
