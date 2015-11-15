@@ -83,6 +83,7 @@ If I was to change something now, I would have:
 - brought in headphones in order to try out the video chat without interrupting people (this ideally would have also been tried out a few days before)
 - connected to more code retreats from other countries to stress it's a global event
 - spent just a tiny bit more time on explaining the constrains and then always asking a question if they are clear. Possibly I would have asked some leading questions, for example in the Silent Pair Programming session: "how else can you express your intent if you can't talk" or "if you don't understand your partner's test, what options do you have to make it clear" or maybe "while you are writing your code silently, how can you make it easier for your partner to follow". Then in the retrospective, participants would have tried to answer these questions.
+- discussed more why it was hard to delete code after the first session
 - tried harder to remember when each session started ;-)
 
 I would have considered changing:
