@@ -98,7 +98,7 @@ Inheritance doesn't cause problems when
 - it's shallow
 - it's narrow
 - subclasses are leaf nodes of the objects graph (they are at the edges of the system, not in the center)
-- subclasses use all the behaviour of the base class
+- subclasses use all the behaviour of the base class (i.e. they specialise all parent concepts)
 
 ##DAY 3
 SOLID principles
