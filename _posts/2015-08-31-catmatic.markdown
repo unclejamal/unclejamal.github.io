@@ -11,7 +11,7 @@ Workshop at SoCraTes 2015
 
 Between 27/08/2015 and 30/08/2015 I had a pleasure to participate in the [SoCraTes (Software Craftsmanship and Testing) 2015](https://www.socrates-conference.de) open-space unconference held in Soltau, Germany.
 
-It was a perfect opportunity to organise a workshop and find out how other people feel about rules (or lack thereof) in software development. I initially wanted to name it "There are no rules" or "Rattle your cage" until somebody in the [World Cafe](https://en.wikipedia.org/wiki/World_Caf%C3%A9_(conversational_process)) session came up with the word "cat-matic", an antonym of dogmatic. The word was mentioned in that evening's retrospective and it seemed like a perfect title for my session :)
+It was a perfect opportunity to organise a workshop and find out how other people feel about rules (or lack thereof) in software development. I initially wanted to name it "There are no rules" or "Rattle your cage" until somebody in the [World Cafe](https://en.wikipedia.org/wiki/World_Caf%C3%A9_(conversational_process%29) session came up with the word "cat-matic", an antonym of dogmatic. The word was mentioned in that evening's retrospective and it seemed like a perfect title for my session :)
 
 That's how the session "Be cat-matic" was born.
 
