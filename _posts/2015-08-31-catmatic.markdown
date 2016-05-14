@@ -63,8 +63,9 @@ My opinion
 
 I personally believe that there are various reasons not to follow a "best practice":
 
-- **technical reasons**: small commits might not work well until long-running tests are fixed
+- **technical reasons**: writing tests for constructors is usually avoided in new codebases, however it is the most-common starting place when working with legacy code
 - **social reasons**: the cost of creating a personal conflict in the team might be higher than forcing everybody into pairing
+- **project nature ([Cynefin](https://lizkeogh.com/2012/03/11/cynefin-for-devs)) reasons**: breaking features into user stories might not work if we don't know the goal itself (probe-sense-respond, a.k.a. hack something to get feedback on the goal instead)
 - **business reasons**: we might have genuine deadlines under which some compromises have to be made now (and hopefully adressed after the release)
 - **nature of things**: we normally don't automate tests for CSS layout - computers are not a good tool to assess the look and feel
 - **optimising the wrong thing**: as in Kanban; we might want to focus on improving the current bottlenecks in the first priority, before pushing for that new, shiny framework
