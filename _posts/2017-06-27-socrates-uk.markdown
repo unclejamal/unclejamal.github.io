@@ -8,7 +8,7 @@ During 15-18 June I participated at the [SoCraTes UK 2017](http://socratesuk.org
 
 Thursday, 15th June
 -------------------
-The evening was spent pairing with Iulian Ghionoiu on the Roman Numerals kata with 2 twists: we wanted to use property-based testing (we tried Kotlintest for Kotlin) and to evolve the requirements for the conversion (as though the final version of the Roman/Arabic numbers hasn't been discovered yet). The evolution meant starting with only I's (scratching a piece of wood or carving a line in the stone?). Then, we tried to imagine what problems that representation presented before coming up with solutions. The problems were:
+The evening was spent pairing with [Iulian Ghionoiu](https://twitter.com/julianghionoiu) on the Roman Numerals kata with 2 twists: we wanted to use property-based testing (we tried Kotlintest for Kotlin) and to evolve the requirements for the conversion (as though the final version of the Roman/Arabic numbers hasn't been discovered yet). The evolution meant starting with only I's (scratching a piece of wood or carving a line in the stone?). Then, we tried to imagine what problems that representation presented before coming up with solutions. The problems were:
 
 - countability (ten I's carved next to each other blur into each other when trying to count them) -> solution: introduce new symbols that look different like V (note that V here stands for one and can be placed at any position)
 - additivity (even though we have a visually different character, we still have to spend time counting each single one) -> solution: make some symbols stand for more than 1. At that point V could become to mean 2, 3, 5 etc. Generally the more people had to count, the more symbols they need
@@ -27,7 +27,7 @@ Friday, 16th June
 -----------------
 ### 10:00 in Azalea - [Alistair Smith](https://twitter.com/alastairs) - Help me model my domain (DDD)
 - core domain, support domain, generic domain - focus on core
-- ubiqituous language is shared with all parties. But there will be internal things that you have to name that your users/business won't get to see
+- ubiquitous language is shared with all parties. But there will be internal things that you have to name that your users/business won't get to see
 
 
 ### 11:00 in Azalea - [Oliver Nautsch](https://twitter.com/ollispieps) - Consumer Driven Contracts (CDC)
@@ -40,18 +40,18 @@ Friday, 16th June
 - 3 ideas how to share CDC in an organisation:
 1) Check in directly into Provider's repository
 2) Have Provider download the latest zip of your pacts from artifactory
-3) Have Consumer build automatically commit in the Prov's repo
+3) Have Consumer build automatically commit in the Provder's repository
 
 
 ### 12:00 in the garden - [Aki Salmi](https://twitter.com/rinkkasatiainen) - Opinions about opinions (being opinionated)
-- it's not emotions to supress, it's attachment to opinions
+- it's not emotions to suppress, it's attachment to opinions
 - listen to body language to see when emotions arise (at which point I stop listening)
-- try to make it win-win (rather than comprosise, or pushing your own opinions)
+- try to make it win-win (rather than compromise, or pushing your own opinions)
 - try thinking in terms of pros and cons (and trade-offs) rather than right or wrong
 - even if you have heard arguments of the other camp (e.g. outside-in testing vs bottom-up), still listen to your vis-a-vis to understand to understand why their opinion is particularly important for them in this very context
 - listen to their opinion first, rephrase their opinion with your own words
 - things just are (they're neither right nor wrong)
-- Akki runs training in organisations on "how to listen to others"
+- [Aki](https://twitter.com/rinkkasatiainen) runs training in organisations on "how to listen to others"
 - opinions are a quest to understand the other person (so that they get the experience of being truly understood)
 - what if my opinions don't matter to anybody... except of me?
 
@@ -92,9 +92,9 @@ Now printStuff can be inlined which will push System.out.println to the caller a
 ### 16:00 in Azalea - [Julian Harty](https://twitter.com/julianharty) - TDD with content
 - how to test systems which correctness depends on the data, given production data is sensitive and cannot be used by the development team
 - e.g. do long names from the database render gracefully in the GUI
-- e.g. handling cyrillic, arabic, chinese etc. characters
+- e.g. handling Cyrillic, Arabic, Chinese etc. characters
 - e.g. performance of queries might depend on the data shape
-- a solution might be "Clean Door + Dirty Door" (IBM Bios table of interrupts), where the Clean Door team (having access to production data) can run algorithms prepared by the Dirty Door team (development team) which will characterise the production data, e.g. longest name, what encodings are used, distribution of first names (apparently one third of european first names start with "j"), etc. Then the Dirty Door team will implement a data generator which matches the production characteristics.
+- a solution might be "Clean Door + Dirty Door" (IBM Bios table of interrupts), where the Clean Door team (having access to production data) can run algorithms prepared by the Dirty Door team (development team) which will characterise the production data, e.g. longest name, what encodings are used, distribution of first names (apparently one third of European first names start with "j"), etc. Then the Dirty Door team will implement a data generator which matches the production characteristics.
 
 
 ### 17:00 in Wotton - Retrospective
@@ -105,9 +105,9 @@ Now printStuff can be inlined which will push System.out.println to the caller a
 - [auth0](https://auth0.com) - few lines of code to get sign ins for free
 
 ### 18:00 in Wotton - Lightning talks
-- asking important question on hipchat and getting no answer? Why? Because I didn't explain why it's important. 
+- asking important question on HipChat and getting no answer? Why? Because I didn't explain why it's important. 
 - why am I asking the question? What the cost of them not answering the question is? What could I do if I don't get an answer?
-- e.g. "I need to make decision by Friday for the meeting. But if you don't give me the answer till then, here's what I'm gonna do"
+- e.g. "I need to make decision by Friday for the meeting. But if you don't give me the answer till then, here's what I'm going to do"
 - provide context for people + respect their time + provide TL;DR (expand gradually)
 
 
@@ -154,13 +154,13 @@ Browser->+Content: getProductContent()
 Content-->-Browser: Images, Videos
 {% endhighlight %}
 
-Microservices have a huge cost (you can't even experiment with it like with a single codebase) so let's stress test our desing:
+Microservices have a huge cost (you can't even experiment with it like with a single codebase) so let's stress test our design:
 
 - what would happen if Price Service goes down?
 - how many HTTP calls do we have to make per single user request?
 - when I'm in Spain but want to deliver to London, how does that impact things I'm adding to basket?
 - can I deal with multiple delivery companies?
-- ... if these things cause ripple effect across multiple apps and it's EXTREMELY hard to change these things with microservices
+- ... if these things cause ripple effect across multiple applications and it's EXTREMELY hard to change these things with microservices
 - ... if a microservices in the sequence diagram does only 1 thing, is its existence justified
 - ... perhaps I could merge microservices based on the availability (they both have to be up together in order for the whole webapp to be usable)
 - ... if Sales and Promotions are done by different people, putting them in one microservice might mean that the team in charge won't have easy access to one of the groups (Conway's Law)
@@ -168,7 +168,7 @@ Microservices have a huge cost (you can't even experiment with it like with a si
 [Sandro Mancuso](https://twitter.com/sandromancuso) & [Pedro Santos](https://twitter.com/pedromsantos) did this in the past in a real project:
 
 - first discuss with business people and different teams, what are the main features (it might take 3 hours to come up with 12 bullet points)
-- draw sequence diagrams for these features ,with vertical blocks being just concepts (rather than apps) -> just to get understanding how it works
+- draw sequence diagrams for these features ,with vertical blocks being just concepts (rather than applications) -> just to get understanding how it works
 - extract bounded contexts and then group them by first- and second-level (ex. below)
 
 
@@ -194,7 +194,7 @@ Customer
 - domain -> subdomains (core, supporting, generic)
 - bounded context
 - ubiquitous language
-- dontext map -> shared kernel, anti-corruption layer, customer-supplier
+- context map -> shared kernel, anti-corruption layer, customer-supplier
 
 
 ### 15:00 in the garden - [Aki Salmi](https://twitter.com/rinkkasatiainen) - How to make a safe space
@@ -230,7 +230,7 @@ Some Interesting Sessions I didn't participate in
 ### [Johan Martinsson](https://twitter.com/johan_alps) - Accelerated Learning
 - [decks](http://llewellynfalco.blogspot.co.uk/p/sparrow-decks.html)
 - learning to differentiate concepts by a machine-learning-like technique
-- e.g. how to differentiate between two kinds of sparrows that we don't know anything about. Instead of concious learning, we're presenting our brain with a big sample of images of each kind and the right answers. At some point the brain will figure out what the difference is (sometimes even without being conciously aware of it)
+- e.g. how to differentiate between two kinds of sparrows that we don't know anything about. Instead of conscious learning, we're presenting our brain with a big sample of images of each kind and the right answers. At some point the brain will figure out what the difference is (sometimes even without being conciously aware of it)
 
 
 ### [Matthew Butt](https://twitter.com/bnathyuw) - Church Bells
@@ -246,5 +246,5 @@ Thanks to
 ----------
 - [Matthew Butt](https://twitter.com/bnathyuw) for his fantastic facilitation of the event
 - [Johan Martinsson](https://twitter.com/johan_alps) for explaining his Accelerated Learning session at the dinner
-- [Riccardo Novaglia](https://twitter.com/RNovaglia) for being superkind and giving me a lift to London
+- [Riccardo Novaglia](https://twitter.com/RNovaglia) for being superkind and offering me a lift to London
 - all the participants for the sessions, conversations and lots of fun
