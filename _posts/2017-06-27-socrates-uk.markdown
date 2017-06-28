@@ -48,7 +48,7 @@ Friday, 16th June
 - listen to body language to see when emotions arise (at which point I stop listening)
 - try to make it win-win (rather than compromise, or pushing your own opinions)
 - try thinking in terms of pros and cons (and trade-offs) rather than right or wrong
-- even if you have heard arguments of the other camp (e.g. outside-in testing vs bottom-up), still listen to your vis-a-vis to understand to understand why their opinion is particularly important for them in this very context
+- even if you have heard arguments of the other camp (e.g. outside-in testing vs bottom-up), still listen to your vis-a-vis to understand why their opinion is particularly important for them in this very context
 - listen to their opinion first, rephrase their opinion with your own words
 - things just are (they're neither right nor wrong)
 - [Aki](https://twitter.com/rinkkasatiainen) runs training in organisations on "how to listen to others"
