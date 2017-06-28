@@ -82,7 +82,7 @@ public void printStuff(int place) {
   System.out.println( textValue(place) );
 }
 
-private void textValue(int place) {
+private String textValue(int place) {
   return "I was at " + place;
 {% endhighlight %}
 
@@ -94,7 +94,7 @@ Now printStuff can be inlined which will push System.out.println to the caller a
 - e.g. do long names from the database render gracefully in the GUI
 - e.g. handling cyrillic, arabic, chinese etc. characters
 - e.g. performance of queries might depend on the data shape
-- a solution might be "Clean Door + Dirty Door" (IBM Bios table of interrupts), where the Clean Door team (having access to production data) can run algorithms prepared by the Dirty Door team (development team) which will characterise the production data, e.g. longest name, what encodings are used, distribution of first names (appararently one third of european first names start with "j"), etc. Then the Dirty Door team will implement a data generator which matches the production characteristics.
+- a solution might be "Clean Door + Dirty Door" (IBM Bios table of interrupts), where the Clean Door team (having access to production data) can run algorithms prepared by the Dirty Door team (development team) which will characterise the production data, e.g. longest name, what encodings are used, distribution of first names (apparently one third of european first names start with "j"), etc. Then the Dirty Door team will implement a data generator which matches the production characteristics.
 
 
 ### 17:00 in Wotton - Retrospective
@@ -173,10 +173,10 @@ Microservices have a huge cost (you can't even experiment with it like with a si
 
 
 {% highlight java %}
-First-level bounded contexts (public) -> Second-level bounded contexts
+First-level (public) bounded contexts -> Second-level bounded contexts
 -----------------------------------------------------------------------
-Catalog -> Media Product Tax PRicing Availability
-Delivery -> Avail Distribution
+Catalog -> Media, Product, Tax, Pricing, Availability
+Delivery -> Availability, Distribution
 Order -> Mailer
 Cart -> Promotions
 Payments
@@ -191,10 +191,10 @@ Customer
 
 ### 14:00 in Azalea - [Ian Russell](https://twitter.com/ijrussell) -  Strategic Domain Driven Design
 - [https://github.com/lscc/socrates-uk/wiki/Strategic-Domain-Driven-Design](https://github.com/lscc/socrates-uk/wiki/Strategic-Domain-Driven-Design)
-- Domain -> SubDomains (Core Supporting Generic)
-- bounded Context
+- domain -> subdomains (core, supporting, generic)
+- bounded context
 - ubiquitous language
-- Context Map -> Shared Kernel, Anti-Corruption Layer, Customer-Supplier
+- dontext map -> shared kernel, anti-corruption layer, customer-supplier
 
 
 ### 15:00 in the garden - [Aki Salmi](https://twitter.com/rinkkasatiainen) - How to make a safe space
@@ -203,7 +203,7 @@ Customer
 
 ### 16:00 in 1877 (posh) - XP Cards [Dionatan Moura](https://twitter.com/dionatanmoura) - Extreme Programming Playing Cards
 - made by Industrial Logic - [link](https://www.industriallogic.com/blog/xp-playing-cards)
-- game master puts a Problem Card on the table
+- game master plays a Problem Card on the table
 - players try to act by presenting a Solution Card or a Value Card
 - discussion follows what's the best response to the Problem
 
