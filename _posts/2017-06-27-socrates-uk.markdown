@@ -40,7 +40,7 @@ Friday, 16th June
 - 3 ideas how to share CDC in an organisation:
 1) Check in directly into Provider's repository
 2) Have Provider download the latest zip of your pacts from artifactory
-3) Have Consumer build automatically commit in the Provder's repository
+3) Have Consumer build automatically commit in the Provider's repository
 
 
 ### 12:00 in the garden - [Aki Salmi](https://twitter.com/rinkkasatiainen) - Opinions about opinions (being opinionated)
