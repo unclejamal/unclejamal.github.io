@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Impact Mapping Workshop with Gojko Adzic
 ---
@@ -23,7 +23,7 @@ Introduction 9:00-9:30
 
 Group exercise - Create Plan
 -----------------
-Problem: the existing legacy application is an information gateway for music-related events. It serves Music Fans (mostly young people getting updates about their favourite bands or events) and Event Organisers (newsletters, lists of atendees, analytics).
+Problem: the existing legacy application is an information gateway for music-related events. It serves Music Fans (mostly young people getting updates about their favourite bands or events) and Event Organisers (newsletters, lists of attendees, analytics).
 
 
 The legacy application uses email as a delivery channel which presents us with the following challenges:
@@ -51,7 +51,7 @@ Compare plans for the 3 groups:
 
 - some groups argued that their plan is best because it does cloud computing. Some other groups argued their plan is best because it avoids it for now,
 - some groups argued that their plan is best because they tackle high-risk first. Some other groups argued tackling low-risk first was preferable,
-- some groups argued that their plan is best because it involves all stakeholders. Some other groups prefered to limit it to 1 stakeholder only.
+- some groups argued that their plan is best because it involves all stakeholders. Some other groups preferred to limit it to 1 stakeholder only.
 
 
 Generally, when comparing things, it's easy to interpret them in a way that justifies our (biased) position.
@@ -74,7 +74,7 @@ Gojko referenced Ron's work:
 
 - comparing goals from Powerpoint presentations (new markets, large scale, and other big words...) to actual project outcomes
 - around 1/3 of projects did improve metrics for the Powerpoint goals
-- another 1/3 didn't change the promised metrics at all or changed them neglibibly
+- another 1/3 didn't change the promised metrics at all or changed them negligibly
 - last 1/3 actually damaged the metrics
 
 
@@ -140,7 +140,7 @@ From the book [Lean Analytics](http://leananalyticsbook.com) - good metrics chan
 - Empathy -> Stickiness -> Virality -> Revenue -> Scale
 - empathy - first make users like your application,
 - stickiness - then make them stay using it longer,
-- virality (growth) - reduce cost of aquisition of new users,
+- virality (growth) - reduce cost of acquisition of new users,
 - revenue,
 - scale - cost of operation
 
@@ -178,7 +178,7 @@ Anthony wrote a book [What customers want?](https://www.amazon.co.uk/What-Custom
 - 1/3 to 1/2 of all ideas what to build are "wrong" - how to detect them early, ideally instead of wasting a lot of effort?
 - plan in terms of *behaviour changes*,
 - *behaviour changes* are observable/measurable in short term,
-- a User Story format can be used for that: As a Music Fan, In order to find out about interesting events in my location _faster_, I want an sms notification,
+- a User Story format can be used for that: As a Music Fan, In order to find out about interesting events in my location _faster_, I want an SMS notification,
 - adverb 'faster' implies a *behaviour change* - other examples: slower, more frequent, cheaper, easier (with shorter journey),
 - focusing on *behaviour change* allows us to compare different solutions more easily - the question is how do they improve the metrics for the *behaviour changes* and goals,
 - *behaviour changes* are *Impacts*
@@ -188,7 +188,7 @@ Anthony wrote a book [What customers want?](https://www.amazon.co.uk/What-Custom
 A hierarchical model:
 
 - Goal => *behaviour changes* => epics => user stories => specifications
-- Goal is achieved by 1+ *behaviour changes*, which are caused by delivering epics, which constist of user stories, which are defined by specifications
+- Goal is achieved by 1+ *behaviour changes*, which are caused by delivering epics, which consist of user stories, which are defined by specifications
 
 
 
@@ -199,7 +199,7 @@ Examples from the participants (some crossed out by Gojko to indicate: not helpf
 - Music Fans will buy tickets more frequently,
 - ~~Music Fans will buy tickets faster (shorter user journey)~~,
 - Music Fans will share the events more often in social media,
-- Music Fans will start consuming event information on the move (on smarthphones),
+- Music Fans will start consuming event information on the move (on smartphones),
 - Music Fans will start attending events they didn't search for,
 - Event Organisers will start posting events on the move,
 - ~~Event Organisers will post more detailed info about events~~,
@@ -243,7 +243,7 @@ Impact Maps
 Quote: Magic happens in the Impacts
 
 - some companies dropped Actors to emphasise Impacts
-- Gojko likes Actors for slicing Deliverables down and prioritisation ("which roup should we address first?")
+- Gojko likes Actors for slicing Deliverables down and prioritisation ("which group should we address first?")
 
 
 2 ways to create Impact Maps:
@@ -270,7 +270,7 @@ Questions:
 - what is an Impact?
 
 
-Answers: : [Impact Mapping cheatsheat](https://github.com/impactmapping/open-impact-mapping-workshop/blob/master/educational-workshops/concerts-online/handouts/cheatsheet.doc) explaining Goals, Actors, Impacts and Deliverables
+Answers: : [Impact Mapping cheatsheet](https://github.com/impactmapping/open-impact-mapping-workshop/blob/master/educational-workshops/concerts-online/handouts/cheatsheet.doc) explaining Goals, Actors, Impacts and Deliverables
 
 
 Goal:
@@ -289,7 +289,7 @@ Impact:
 
 Order of Goals:
 
-- "you can get everything at the end but what's the very next thing?"
+- "you can get everything at the end but what's the very next thing now?"
 - you can't compare Goals - it's not about what's most important - it's about the sequence
 
 
@@ -318,7 +318,7 @@ To test Impact Maps a question can be asked:
 
 Group exercise - Create Impact Map For a Goal
 -----------------
-Pick goal "Reduce reliance on a single channel (5-10% messages not email, click rates ok") and create an Impact Map for it.
+Pick goal "Reduce reliance on a single channel (5-10% messages not email, click rates OK") and create an Impact Map for it.
 
 
 Actors:
@@ -343,7 +343,7 @@ Deliverables:
 - SMS gateway integration,
 - Event update calendar feeds,
 - Send short message about event changes,
-- "What's on tognith" web site,
+- "What's on tonight" web site,
 - "Insider alert" calendar feeds for popular travel destinations.
 
 
@@ -416,7 +416,7 @@ Measurements and Milestones:
 - meter - mechanics of how to measure it (e.g. attendees with more than 1 event per month),
 - benchmark - current state (e.g. 120) (if no data available, maybe the market has the data; or create a learning story for a subset of users to get a benchmark),
 - target - desired state (e.g. 200 by March),
-- constraint - failure level (e.g. below 80 is unnacceptable)  (this one can be used to open a discussion more easily)
+- constraint - failure level (e.g. below 80 is unacceptable)  (this one can be used to open a discussion more easily)
 
 
 Group exercise - Reverse Engineer Underpants Gnomes Situation
@@ -455,15 +455,15 @@ In our case the metrics to identify failure points:
 
 - e-mail to unsubscription ratio,
 - no of subscribers per tag (high number could cause technical failure),
-- no of tags per location
+- no of tags per location.
 
 
 Thus:
 
-- nobody is talking about e-mails we're sending because it's a nonsense goal
-- the impacts would possibly result in sending more e-mails, but the easiest way to achieve that "Goal" is to just spam the users
-- so what is the actual Goal? (perhaps Customer Retention or Grow Revenue, with Impacts such as "Find the content faster" or "Unsubscribe less")
-- but if thath's the Goal, what other options do we have to satisfy it - except of the proposed Deliverables? (perhaps an Android app will bring much more revenue)
+- nobody is talking about e-mails we're sending because it's a nonsense goal,
+- the impacts would possibly result in sending more e-mails, but the easiest way to achieve that "Goal" is to just spam the users,
+- so what is the actual Goal? (perhaps Customer Retention or Grow Revenue, with Impacts such as "Find the content faster" or "Unsubscribe less"),
+- but if that's the Goal, what other options do we have to satisfy it - except of the proposed Deliverables? (perhaps an Android app will bring much more revenue).
 
 More details on Goal refinement: [here](https://github.com/impactmapping/open-impact-mapping-workshop/blob/master/educational-workshops/concerts-online/facilitation-guide.md#exercise-5-propose-new-delivery-plans)
 
@@ -495,7 +495,7 @@ Poor ATMI, small COBW (Align)
   - common in large finances,
   - Impact Maps help align all stakeholders for larger milestones,
   - commonly several maps, rather than just one,
-  - often digitilised,
+  - often digitalised,
   - bigger maps,
   - progress checks: "have we delivered it already?",
   - usually only parts of maps end up getting delivered,
