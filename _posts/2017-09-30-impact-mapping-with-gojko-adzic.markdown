@@ -103,12 +103,13 @@ Comment from Gojko:
 
 Gojko quoting somebody:
 
-- "most businesses measure things that are easy to measure rather than the valuable ones"
-- User Story points (or Burndown points) are a proxy metric for actual value (it's easy to measure it but it represents time/effort spent rather than a value increment)
+- "most businesses measure things that are easy to measure rather than the valuable ones",
+- User Story points (or Burndown points) are a proxy metric for actual value (it's easy to measure it but it represents time/effort spent rather than a value increment),
+- we should rather focus on measuring the value (Impacts).
 
 
 So which metrics do we want to focus on now (in our current stage):
-j
+
 - some metrics are outside of our scope (like number of tickets sold which depends highly on big festival dates)
 - some metrics cannot be compared across our 3 Prove of Concept solutions (number of followers on Facebook doesn't make sense for solutions which skip social media for now)
 - short-term metrics are different from long-term metrics (time factor)
@@ -156,7 +157,8 @@ Hence, using this model we can see:
 When deciding what to work on next possible categories are:
 
 - Must/Should/Could - Gojko's prefers other categories,
-- [Chris Matts](https://twitter.com/PapaChrisMatts)'s: now vs not now (or more politically correct rephrased: yes vs yes but later)
+- [Chris Matts](https://twitter.com/PapaChrisMatts)'s: now vs not now (or more politically correct rephrased: yes vs yes but later),
+- "now vs not now" helps with the "90% of the backlog is a must (prio 1)" situation - everything stays (politically correctly) a must - just not for the current milestone.
 
 
 Don't prioritise features (it's hard/impossible to do well). Prioritise business goals:
@@ -209,20 +211,25 @@ Examples from the participants (some crossed out by Gojko to indicate: not helpf
 - Music Fans will click more links / more often / sooner,
 - ~~Music Fans will attend events more frequently~~.
 
+Common mistakes:
+- listing behaviours instead behaviour changes - e.g. "visit website" is a behaviour and doesn't describe what will be different from the current situation,
+- listing behaviour that already are happening and not focusing on the *difference* - e.g. "users will start sharing events with their friends" happens already without software, so the question is how *differently* will they share them (e.g. more often, with fewer clicks, etc.) or (another example) "buy using iPhone - users can already do that by calling from the iPhone,
+- listing software solutions - e.g. "subscribtions per music genre" - describes a Deliverable rather a behaviour change.
 
 Question from the participants: Isn't it hard to measure some metrics in software systems?
 
 Answer: If you design systems with metrics in mind, it becomes easier to measure them (just like with testability in Test-Driven Development)
 
 
+Group exercise - Redo "Create Plan" Exercise
+-----------------
 New Goal Statement: let's assume that our business decided the most important thing for now is to "protect the existing revenue" (other possible goals being, e.g. "moving to the new business model"). Then the 2 behaviour changes we chose to focus on were:
 
 - Music Fans will click more links / more often / sooner,
-- Music Fans will start consuming event information on the move (on smarthphones).
+- Music Fans will start consuming event information on the move (on smarthphones),
+- in the facilitation guide Gojko mentions 2 "target" behaviours are: coming back more frequently and staying longer.
 
 
-Group exercise - Redo "Create Plan" Exercise
------------------
 Having the new goal and the 2 behaviour changes in mind, we changed our plan:
 
 - add social channels,
@@ -231,7 +238,16 @@ Having the new goal and the 2 behaviour changes in mind, we changed our plan:
 
 If the 2 first features get Music Fans to change their behaviour in acceptable way (e.g., 20% or more clicks), we can stop development there and move on to the next behaviour change supporting our Goal.
 
-The Deliverables (User Stories) from our plan can be further split, e.g. by Actors - just deliver SMS notifications to people in London (it simplifies the feature to be just 1 SMS gateway and 1 language only). Location can be chosen for many reasons:
+
+Common mistakes:
+
+- mixing Deliverables and Impacts,
+- Impacts which are not behaviour changes,
+- Impacts which do not help our current business Goal (not vs not now),
+- Deliverables that do not help an Impact (e.g. e-ticketing for the Impact of "coming back more frequently").
+- Specific software solution at the Impact level (e.g. use our iphone app) - to refine it a question can be asked "what does it actually achieve?" (e.g. users come back more frequently)
+
+The Deliverables (User Stories) from our plan can be further split, e.g. by degree of an Impact or by Actors - just deliver SMS notifications to people in London (it simplifies the feature to be just 1 SMS gateway and 1 language only). Location can be chosen for many reasons:
 
 - lowest risk,
 - changes most needed,
@@ -249,7 +265,7 @@ Quote: Magic happens in the Impacts
 2 ways to create Impact Maps:
 
 - take existing backlog and reverse engineer it (possibly a common place to start it in most of companies)
-- start from Goals (probably cleaner but in practice happens less often)
+- start from Goals (probably cleaner but in practice happens less often - usually goals are vague, misleading or incorrect)
 
 
 Common mistakes with Impact Maps:
@@ -285,6 +301,12 @@ Impact:
 - start/stop doing something
 - do something differently (faster/easier/cheaper/etc.)
 - not Deliverables (not software ideas or implied solutions)
+- can be used for reporting (impacts achieved during delivery) as an alternative to using story points as a measurement of value
+
+
+Impact:
+
+- software solution or business activity - whatever achieves the Impact (e.g. hiring more people for the customer support, stop cross-selling products during peak times
 
 
 Order of Goals:
