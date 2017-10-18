@@ -101,7 +101,7 @@ Comment from Gojko:
 - participants had different understanding of how to measure these things (is growth measured in GBP or in percentage, for what time frame, is it fair to measure revenue if big festival dates are outside of our control?)
 
 
-Gojko quoting somebody:
+Gojko quoting Douglas Hubbard's book [How to Measure Anything](https://www.amazon.co.uk/How-Measure-Anything-Intangibles-Business/dp/0470539399):
 
 - "most businesses measure things that are easy to measure rather than the valuable ones",
 - User Story points (or Burndown points) are a proxy metric for actual value (it's easy to measure it but it represents time/effort spent rather than a value increment),
@@ -163,7 +163,8 @@ When deciding what to work on next possible categories are:
 
 Don't prioritise features (it's hard/impossible to do well). Prioritise business goals:
 
-- as a side effect it also limits the scope drastically)
+- as a side effect it also limits the scope drastically,
+- as a side effect it engages business people much more effectively.
 
 
 Question from a participant:
@@ -192,6 +193,13 @@ A hierarchical model:
 - Goal => *behaviour changes* => epics => user stories => specifications
 - Goal is achieved by 1+ *behaviour changes*, which are caused by delivering epics, which consist of user stories, which are defined by specifications
 
+
+User Stories:
+- are very often created upfront (in Water-Scrum-Fall aproaches) and then a large backlog of items has to be maintained and constantly reprioritised,
+- sometimes stakeholders "know" exactly what software features they want so they insist of getting their stuff into the backlog - hoping this way they won't be ignored,
+- solution to that is to raise the level of abstraction to Impacts,
+- there are significantly fewer of them so no large backlog has to be maintained,
+- they will force stakeholders to think harder about what they want - in terms of Impacts; and thus formulate the Stories better.
 
 
 Group exercise - Define Behaviour Changes
@@ -339,7 +347,7 @@ To test Impact Maps a question can be asked:
 
 
 Group exercise - Create Impact Map For a Goal
------------------
+----------------
 Pick goal "Reduce reliance on a single channel (5-10% messages not email, click rates OK") and create an Impact Map for it.
 
 
@@ -410,6 +418,9 @@ Answer: respond "yes, but in what order?" Once engaged in discussion they will n
 - reporting tool - progress on Impacts and Goals
 
 
+Business people tend to be much more engaged and make better decisions when prioritising at the level of goals and impacts rather than software features.
+
+
 Question: I'm working on a rewrite project...
 
 Answer: Pretend that I can give you the rewritten application right now. If that happens, whose behaviour will be easier to change?
@@ -432,13 +443,16 @@ Cost of delay:
 - for Goals/Impacts is easy.
 
 
-Measurements and Milestones:
+Measurements and Milestones - from Tom Gilb's book [Competitive Engineering](https://www.amazon.co.uk/Competitive-Engineering-Handbook-Requirements-Planguage/dp/0750665076):
 
 - scale - what will you measure (e.g. user retention),
 - meter - mechanics of how to measure it (e.g. attendees with more than 1 event per month),
 - benchmark - current state (e.g. 120) (if no data available, maybe the market has the data; or create a learning story for a subset of users to get a benchmark),
 - target - desired state (e.g. 200 by March),
-- constraint - failure level (e.g. below 80 is unacceptable)  (this one can be used to open a discussion more easily)
+- constraint - minimium acceptable value / failure level (e.g. 80 - i.e. below 80 is unacceptable)  (this one can be used to open a discussion more easily)
+
+
+Gojko has once facilitated a workshop in which 20 Goals were created. By discussing measurements and targets 17 of them were dropped - they weren't that important.
 
 
 Group exercise - Reverse Engineer Underpants Gnomes Situation
