@@ -306,13 +306,14 @@ Goal:
 
 Impact:
 
+- change in Actor's behaviour
 - start/stop doing something
 - do something differently (faster/easier/cheaper/etc.)
 - not Deliverables (not software ideas or implied solutions)
 - can be used for reporting (impacts achieved during delivery) as an alternative to using story points as a measurement of value
 
 
-Impact:
+Goal:
 
 - software solution or business activity - whatever achieves the Impact (e.g. hiring more people for the customer support, stop cross-selling products during peak times
 
