@@ -242,9 +242,10 @@ Saturday, 8th June
 - we played [Werewolf](https://en.wikipedia.org/wiki/Mafia_(party_game\)) till late night
 
 
-All the other sessions
+More links
 -------------------------------------------------
-- [link to wiki](https://github.com/lscc/socrates-uk/wiki/2019-Sessions)
+- [wiki for all the sessions](https://github.com/lscc/socrates-uk/wiki/2019-Sessions)
+- [photos by Esko Luontola](https://www.dropbox.com/sh/lyuxdvasb2xpw8p/AAAatEt8MigElskEuxH83C-sa?dl=0)
 
 
 Summary
