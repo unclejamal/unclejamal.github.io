@@ -247,7 +247,7 @@ All the other sessions
 - [link to wiki](https://github.com/lscc/socrates-uk/wiki/2019-Sessions)
 
 
-Others
+Summary
 -------------------------------------------------
 - one of my favourite moments at the conference was when I was at the [Retrospective on writing a book](https://github.com/lscc/socrates-uk/wiki/Retrospective-on-Writing-a-Book) session and [@sleepyfox](https://twitter.com/sleepyfox) walked into the room looking for another session [Help Me Get Over Corporate Bullshit](https://github.com/lscc/socrates-uk/wiki/Help-Me-Get-Over-Corporate-Bullshit) and asked us "Is this bullshit?" only to hear "Oh, that's next door" :)
 - thanks to all the organisers, facilitators and participants - hope to see you soon again :)
