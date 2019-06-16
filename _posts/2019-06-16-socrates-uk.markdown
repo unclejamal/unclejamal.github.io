@@ -17,6 +17,7 @@ Thursday, 6th June
 
 - the first evening was kicked off with a session of lightning talks
   - my favourite was probably [Maaret](https://twitter.com/maaretp)'s [PowerPoint Karaoke](https://en.wikipedia.org/wiki/PowerPoint_Karaoke) on the topic of parenting using her own app that randomly selects 5 pictures from her computer
+
 - soon after [Dmitry](https://twitter.com/dmitrykandalov) and myself decided to run a mob programming session focusing on [test && commit || revert](https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864) using [Tennis kata](http://codingdojo.org/kata/Tennis)
   - I enjoyed our style of rotation with each person having 5 minutes at the keyboard and then everybody moving clockwise to the next seat at the table, a bit like at [Mad Hatter's tea party](https://en.wikipedia.org/wiki/Hatter_(Alice%27s_Adventures_in_Wonderland) ;-)
 
