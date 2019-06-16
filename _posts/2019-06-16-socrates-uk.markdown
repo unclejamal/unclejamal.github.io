@@ -45,8 +45,6 @@ We brainstormed what strict TDD means to people:
 - think before you type
 - (tests should be fast)
 
-[Tom](https://twitter.com/tomphp) raised an interesting question: do we have confidence after the cheat?
-
 We tried to come up with these cheating techniques:
 
 - familiar class (we've written a number of times before) - first get it in the right shape, then retrofit tests
@@ -70,6 +68,7 @@ Final thoughts:
 - when cheating it should be concious - we should be aware we're doing something potentially dangerous and be able to revert if needed
 - we learn best by pushing our limits - either by literally following the strict TDD rules or conciously breaking them
 - [Daniel](https://twitter.com/d_ir) pointed out that following the strict rules works best for novices so he doesn't cheat when pairing with juniors
+- [Tom](https://twitter.com/tomphp) raised an interesting question: do we have confidence after the cheat?
 
 
 ### 11:00 in Azalea - [Dmitry Kandalov](https://twitter.com/dmitrykandalov) - Live Coding Kotlin/Native Snake
