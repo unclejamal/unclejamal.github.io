@@ -10,7 +10,7 @@ Thursday, 6th June
 -------------------
 
 <div style="text-align: center">
-  <a href="/pic/2019-socratesuk/powerpoint-karaoke.jpg">
+  <a href="/pic/2019-socratesuk/powerpoint-karaoke.jpg" target="_blank">
     <img style="width: 80%; height: 80%; margin: 1em" src="/pic/2019-socratesuk/powerpoint-karaoke.jpg"/>
   </a>
 </div>
@@ -21,7 +21,7 @@ Thursday, 6th June
   - I enjoyed our style of rotation with each person having 5 minutes at the keyboard and then everybody moving clockwise to the next seat at the table, a bit like at [Mad Hatter's tea party](https://en.wikipedia.org/wiki/Hatter_(Alice%27s_Adventures_in_Wonderland) ;-)
 
 <div style="text-align: center">
-  <a href="/pic/2019-socratesuk/tcr-mob.jpg">
+  <a href="/pic/2019-socratesuk/tcr-mob.jpg" target="_blank">
     <img style="width: 80%; height: 80%; margin: 1em" src="/pic/2019-socratesuk/tcr-mob.jpg"/>
   </a>
 </div>
@@ -116,7 +116,7 @@ Kotlin tricks I learned from watching [Dmitry](https://twitter.com/dmitrykandalo
 - book recommendation: [5 Dysfunctions of a Team](https://en.wikipedia.org/wiki/The_Five_Dysfunctions_of_a_Team)
 
 <div style="text-align: center">
-  <a href="https://twitter.com/MoleiroAlex/status/1137764850036355072">
+  <a href="https://twitter.com/MoleiroAlex/status/1137764850036355072" target="_blank">
     <img style="width: 80%; height: 80%; margin: 1em" src="/pic/2019-socratesuk/roleplaying-toxic-by-alex-moleiro.jpg"/>
   </a>
 </div>
@@ -169,7 +169,7 @@ Saturday, 8th June
 - the question is how to spend a limited budget to deal with uncertainty around the question of security
 
 <div style="text-align: center">
-  <a href="/pic/2019-socratesuk/lego4security.jpg">
+  <a href="/pic/2019-socratesuk/lego4security.jpg" target="_blank">
     <img style="width: 80%; height: 80%; margin: 1em" src="/pic/2019-socratesuk/lego4security.jpg"/>
   </a>
 </div>
@@ -183,7 +183,7 @@ Saturday, 8th June
 - [Oliver](https://twitter.com/ollispieps)'s book recommendation: [Agile Technical Practices](https://leanpub.com/agiletechnicalpracticesdistilled)
 
 <div style="text-align: center">
-  <a href="/pic/2019-socratesuk/oliver-refactoring.jpg">
+  <a href="/pic/2019-socratesuk/oliver-refactoring.jpg" target="_blank">
     <img style="width: 80%; height: 80%; margin: 1em" src="/pic/2019-socratesuk/oliver-refactoring.jpg"/>
   </a>
 </div>
@@ -228,7 +228,7 @@ Saturday, 8th June
 - ideally the navigator should start with intent and only move up the level of details if required (for example focusing too much on IntelliJ shortcuts is too detailed; better start by letting the driver figure out how to do the task themselves)
 
 <div style="text-align: center">
-  <a href="/pic/2019-socratesuk/testing-mob.jpg">
+  <a href="/pic/2019-socratesuk/testing-mob.jpg" target="_blank">
     <img style="width: 80%; height: 80%; margin: 1em" src="/pic/2019-socratesuk/testing-mob.jpg"/>
   </a>
 </div>
