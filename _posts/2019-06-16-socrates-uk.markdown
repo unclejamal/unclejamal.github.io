@@ -212,7 +212,7 @@ Saturday, 8th June
 - identify patterns in tests which indicate a production code problem
 - [Tom](https://twitter.com/tomphp)'s [slides](https://www.slideshare.net/TomOram/tdd-design-patterns-socrates-uk-2019) show how adding a conditional to the production side might multiply the number of test cases that we need to write
 - [JB Rainsberger](https://twitter.com/jbrains)'s talk: [Some Underrated Elements of Success for the Modern Programmer](https://www.youtube.com/watch?v=mbcV_Qdb7Ts)
-  - 3 stages of TDD: mistakes (test-first development), design (test-driven development), patterns (problems in tests translate to problems in code)
+  - 3 stages of TDD as a function of currentBottleneck->practiceToEliminateIt: mistakes->test-first development, design->test-driven development, patterns (problems in tests translate to problems in code)
 - [Michael Feathers](https://twitter.com/mfeathers)'s talk: [The Deep Synergy Between Testability and Good Design](https://www.youtube.com/watch?v=4cVZvoFGJTU)
 
 
